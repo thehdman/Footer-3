@@ -1,4 +1,6 @@
 footer{
+    position: relative;
+    top: 100px;
     background: #218c74;
     color: #fff;
     font-family: 'Nunito', sans-serif;
@@ -13,40 +15,42 @@ a{
 .footer-mid-links{
     font-size: 20px;
 }
-.footer-social{
-    display: flex;
-    justify-content: flex-end;
+.social-heading{
+    float: right;
 }
 .inp-email{
-    width: 65%;
-    height: 55px;
+    width: 70%;
+    height: 50px;
     border-radius: 50px;
 }
 .inp-email::placeholder {
     color: #218c74;
 }
+
 .btn-submit{
-    width: 32%;
-    height: 55px;
+    width: 27%;
+    height: 50px;
     border-radius: 50px;
     background: #55efc4;
+    font-size: 17px;
 }
-.btn-submit :hover{
-    background: #55efc4;
-    color: #218c74;
-}
+
 .media-icons{
     float: right;
     font-size: 40px;
     padding-left: 20px;
 }
-.media-icons :hover{
+.footer-icons :hover{
     color: #55efc4;
 }
 .footer-bottom{
     display: flex;
     justify-content: space-between;
 }
-.footer-policy{
+.footer-policy a{
     font-size: 20px;
+    color: #D3D3D3;
+}
+.footer-policy :hover{
+    color: #fff;
 }
