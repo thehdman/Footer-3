@@ -7,9 +7,39 @@ a{
     color: #fff;
     text-decoration: none;
 }
-.footer-mid{
-    padding: 0 50px;
+
+.footer-heading{
+    font-size: 25px;
 }
 .footer-mid-links{
+    font-size: 20px;
+}
+.footer-social{
+    display: flex;
+    justify-content: flex-end;
+}
+.inp-email{
+    width: 65%;
+    height: 50px;
+    border-radius: 25px;
+}
+.btn-submit{
+    width: 32%;
+    height: 50px;
+    border-radius: 25px;
+    background: #55efc4;
+}
+.media-icons{
+    float: right;
+}
+.media-icons{
+    font-size: 40px;
+    padding-left: 20px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-policy{
     font-size: 20px;
 }
